@@ -22,6 +22,29 @@
     /*}*/
 }
 
+@media (max-width: 880px) {
+ 
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  
+  }
+ 
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .main {
+    line-height: normal;
+    font-size: auto;
+  }
+ 
+}
+
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     .header-right {
