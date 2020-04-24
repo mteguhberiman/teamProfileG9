@@ -13,36 +13,38 @@
         margin-bottom: 50px;
     }
 
-    /*  .txt-contents{*/
-    /*    margin-bottom:50px;*/
-    /*  }*/
-    /*footer img {*/
-    /*width: 125px;*/
-    /*display:block;*/
-    /*}*/
-}
+    .flex-main img {
+        width: 385px;
+        height: 432px;
+    }
 
-@media (max-width: 880px) {
- 
-  .footer-distributed{
-    font: bold 14px sans-serif;
-  
-  }
- 
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
+    .contact {
+        flex: auto;
+        margin: 0px 50px 30px 50px;
+    }
 
-  .main {
-    line-height: normal;
-    font-size: auto;
-  }
- 
+    .x1-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .x1-data {
+        width: 50%;
+    }
+
+    .x1-img img {
+        height: 200px;
+        width: 250px;
+    }
+
+    .x1-content {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .x1-content p {
+        text-align: justify;
+    }
+
 }
 
 /* Untuk Smartphone */
@@ -78,9 +80,60 @@
         /*margin: 20px 0;*/
     }
 
-    .lesson {
+    .container-2 {
+        width: 300px;
+        height: 430px;
+        margin: 0 auto;
+    }
+
+    .flex-extra {
+        padding: 20px;
+        display: flex;
+    }
+
+    .flex-main {
         width: 100%;
         display: block;
+        ;
     }
+
+    .flex-main img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .message {
+        width: 250px;
+        height: auto;
+    }
+
+    .contact {
+        width: 100px;
+    }
+
+    .x1-wrapper {
+        flex-direction: column;
+    }
+
+    .x1-data {
+        margin: 1% auto;
+        width: 0%;
+    }
+
+    .x1-img img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .x1-content {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 15%;
+    }
+
+    .x1-content p {
+        text-align: justify;
+    }
+
 
 }
